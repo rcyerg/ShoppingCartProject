@@ -73,7 +73,7 @@ public class Cart {
 
         }
         System.out.println("=============================================");
-        System.out.println("\t\t\tshoppingcart.Cart Qty: " + totalQty);
+        System.out.println("\t\t\tCart Qty: " + totalQty);
         System.out.println("\n(!) Today's Special is: " + this.special.getSpecialDescriptor());
     }
 

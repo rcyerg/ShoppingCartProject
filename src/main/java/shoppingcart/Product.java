@@ -1,3 +1,5 @@
+package shoppingcart;
+
 public class Product {
     private int id;
     private static int sharedID = 1;

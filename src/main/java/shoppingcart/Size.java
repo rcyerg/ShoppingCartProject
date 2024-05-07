@@ -1,3 +1,5 @@
+package shoppingcart;
+
 public enum Size {
     S,
     M,

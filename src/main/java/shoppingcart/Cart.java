@@ -1,3 +1,4 @@
+package shoppingcart;
 
 import java.util.*;
 public class Cart {
@@ -54,13 +55,13 @@ public class Cart {
             System.out.println("(!) Cannot remove " + qty + " " + product.getName() + "(s) from the cart - only " + products.get(product) + " exist in the cart currently!");
 
         } else {
-            System.out.println("(!) Cart does not contain " + product.getName());
+            System.out.println("(!) shoppingcart.Cart does not contain " + product.getName());
 
         }
     }
 
     public void printCartInfo(){
-        System.out.printf("%n%-8s%-16s%-8s%-8s%-8s%n", "ID", "Name", "Size", "Price", "Qty");
+        System.out.printf("%n%-8s%-16s%-8s%-8s%-8s%n", "ID", "Name", "shoppingcart.Size", "Price", "Qty");
         System.out.printf("%-8s%-16s%-8s%-8s%-8s%n", "----", "------", "------", "-------", "-----");
         Integer totalQty = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet() ){
@@ -72,7 +73,7 @@ public class Cart {
 
         }
         System.out.println("=============================================");
-        System.out.println("\t\t\tCart Qty: " + totalQty);
+        System.out.println("\t\t\tshoppingcart.Cart Qty: " + totalQty);
         System.out.println("\n(!) Today's Special is: " + this.special.getSpecialDescriptor());
     }
 

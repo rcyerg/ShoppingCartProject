@@ -1,3 +1,5 @@
+package shoppingcart;
+
 public enum Specials {
 
     BOGO("B.O.G.O Free");

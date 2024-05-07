@@ -61,7 +61,7 @@ public class Cart {
     }
 
     public void printCartInfo(){
-        System.out.printf("%n%-8s%-16s%-8s%-8s%-8s%n", "ID", "Name", "shoppingcart.Size", "Price", "Qty");
+        System.out.printf("%n%-8s%-16s%-8s%-8s%-8s%n", "ID", "Name", "Size", "Price", "Qty");
         System.out.printf("%-8s%-16s%-8s%-8s%-8s%n", "----", "------", "------", "-------", "-----");
         Integer totalQty = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet() ){
